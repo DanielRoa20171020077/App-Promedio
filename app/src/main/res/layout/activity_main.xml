@@ -21,23 +21,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/numero2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="18dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="18dp"
         android:ems="10"
         android:hint="Ingrese nota segundo corte"
         android:inputType="numberDecimal"
-        app:layout_constraintBottom_toTopOf="@+id/editText6"
+        app:layout_constraintBottom_toTopOf="@+id/numero3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numero1" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/numero3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -59,7 +59,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="170dp"
         android:background="@color/colorAccent"
-        android:text="Button"
+        android:text="Calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +67,7 @@
         tools:text="Calcular" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -75,8 +75,8 @@
         android:layout_marginEnd="110dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="monospace"
-        android:text="TextView"
-        android:textSize="24sp"
+        android:text="Resultado:"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.636"
@@ -86,24 +86,7 @@
         tools:text="Resultado:" />
 
     <EditText
-        android:id="@+id/editText7"
-        android:layout_width="76dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="270dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.62"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
-
-    <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/mensaje"
         android:layout_width="214dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -116,5 +99,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numero4"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/texto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508" />
 
 </android.support.constraint.ConstraintLayout>
