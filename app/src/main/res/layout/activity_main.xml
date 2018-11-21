@@ -66,12 +66,14 @@
         android:ems="10"
         android:hint="35"
         android:inputType="numberDecimal"
+        android:text="35"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.135"
+        tools:text="35" />
 
     <EditText
         android:id="@+id/porcentaje2"
@@ -84,12 +86,14 @@
         android:ems="10"
         android:hint="35"
         android:inputType="numberDecimal"
+        android:text="35"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/porcentaje1"
-        app:layout_constraintVertical_bias="0.029" />
+        app:layout_constraintVertical_bias="0.029"
+        tools:text="35" />
 
     <EditText
         android:id="@+id/porcentaje3"
@@ -102,12 +106,14 @@
         android:ems="10"
         android:hint="30"
         android:inputType="numberDecimal"
+        android:text="30"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/porcentaje2"
-        app:layout_constraintVertical_bias="0.032" />
+        app:layout_constraintVertical_bias="0.032"
+        tools:text="30" />
 
     <EditText
         android:id="@+id/numero2"
@@ -187,6 +193,7 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
