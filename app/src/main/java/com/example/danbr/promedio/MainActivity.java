@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     promedio=((corte1*p1)+(corte2*p2)+(parcialF*p3));
                     numero4.setText(String.format("%.2f", promedio/10));
 
-                    if (promedio >= 29.4 && promedio < 29.5) {
+                    if (promedio >= 29 && promedio < 29.5) {
 
                         mensaje.setText("LLORELO PAPÁ");
 

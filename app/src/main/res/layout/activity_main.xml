@@ -14,7 +14,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="%"
+        android:text="@string/texto_5"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="%"
+        android:text="@string/texto_5"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,11 +48,14 @@
         android:layout_marginTop="68dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
+        android:hint="@string/texto_8"
         android:inputType="numberDecimal"
+        android:text="@string/texto_8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/texto_8" />
 
     <EditText
         android:id="@+id/porcentaje1"
@@ -63,15 +66,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="@string/texto_6"
         android:inputType="numberDecimal"
-        android:text="35"
+        android:text="@string/texto_6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.135"
-        tools:text="35" />
+        tools:text="@string/texto_6" />
 
     <EditText
         android:id="@+id/porcentaje2"
@@ -82,15 +86,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="@string/texto_8"
         android:inputType="numberDecimal"
-        android:text="35"
+        android:text="@string/texto_6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/porcentaje1"
         app:layout_constraintVertical_bias="0.029"
-        tools:text="35" />
+        tools:text="@string/texto_6" />
 
     <EditText
         android:id="@+id/porcentaje3"
@@ -101,15 +106,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="@string/texto_8"
         android:inputType="numberDecimal"
-        android:text="30"
+        android:text="@string/texto_7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/porcentaje2"
         app:layout_constraintVertical_bias="0.032"
-        tools:text="30" />
+        tools:text="@string/texto_7" />
 
     <EditText
         android:id="@+id/numero2"
@@ -120,13 +126,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="18dp"
         android:ems="10"
+        android:hint="@string/texto_8"
         android:inputType="numberDecimal"
+        android:text="@string/texto_8"
         app:layout_constraintBottom_toTopOf="@+id/numero3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numero1"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/texto_8" />
 
     <EditText
         android:id="@+id/numero3"
@@ -136,11 +145,14 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="272dp"
         android:ems="10"
+        android:hint="@string/texto_8"
         android:inputType="numberDecimal"
+        android:text="@string/texto_8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.882"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/texto_8" />
 
     <Button
         android:id="@+id/button"
@@ -151,7 +163,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="170dp"
         android:background="@color/colorAccent"
-        android:text="Calcular"
+        android:text="@string/texto_9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -167,15 +179,14 @@
         android:layout_marginEnd="110dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="monospace"
-        android:text="Resultado:"
+        android:text="@string/texto_4"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.502"
-        tools:text="Resultado:" />
+        app:layout_constraintVertical_bias="0.502" />
 
     <EditText
         android:id="@+id/mensaje"
@@ -186,6 +197,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="@string/texto_8"
         android:inputType="textPersonName"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -201,12 +213,16 @@
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="@string/texto_8"
+        android:inputType="numberDecimal"
+        android:text="@string/texto_8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/texto"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.508" />
+        app:layout_constraintVertical_bias="0.508"
+        tools:text="@string/texto_8" />
 
     <TextView
         android:id="@+id/textView"
@@ -216,7 +232,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Ingrese porcentaje y nota del primer corte"
+        android:text="@string/texto_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -232,7 +248,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Ingrese porcentaje y nota del segundo corte"
+        android:text="@string/texto_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -248,7 +264,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Ingrese porcentaje y nota del parcial final"
+        android:text="@string/texto_3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -264,7 +280,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="%"
+        android:text="@string/texto_5"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
